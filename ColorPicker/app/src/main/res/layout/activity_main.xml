@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <com.demo.colorpicker.lib.ColorPickerView
+        android:id="@+id/cpv_color_picker_view"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:padding="16dp" />
+
+    <View
+        android:id="@+id/vCurrentColor"
+        android:layout_width="100dp"
+        android:layout_height="100dp" />
+
+    <TextView
+        android:id="@+id/tvCurrentColorCode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>
